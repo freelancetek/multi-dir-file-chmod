@@ -9,7 +9,7 @@ e.g:
 
 ## Command example: ##
 
-find /DIRECTORY/ -type d -exec chmod 755 {} + -o -type f -exec chmod 644 {} +
+find /DIRECTORY/ -type d -exec chmod 770 {} + -o -type f -exec chmod 660 {} +
 
 ## ##
 
