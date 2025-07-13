@@ -7,7 +7,8 @@ e.g:
 * Directories will be set to 770
 * Files will be set to 660
 
-Command example:
+## Command example: ##
+
 find /DIRECTORY/ -type d -exec chmod 755 {} + -o -type f -exec chmod 644 {} +
 
 Break down of this command:
