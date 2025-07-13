@@ -1,15 +1,16 @@
 # multi-dir-file-chmod
 How to recursively set 755 for directories and 644 for files in Linux
 
-chmod multiple Directories and Files with inline command
+find and chmod command to execute in one inline command.
 
-Directories will be set to 770
+e.g:
+* Directories will be set to 770
+* Files will be set to 660
 
-Files will be set to 660
-
+Command example:
 find /DIRECTORY/ -type d -exec chmod 755 {} + -o -type f -exec chmod 644 {} +
 
-Break down this command:
+Break down of this command:
 
 find .: This starts the search in the current directory (.) and its subdirectories.
 
