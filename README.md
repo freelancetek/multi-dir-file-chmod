@@ -11,6 +11,9 @@ e.g:
 
 find /DIRECTORY/ -type d -exec chmod 755 {} + -o -type f -exec chmod 644 {} +
 
+## ##
+
+
 Break down of this command:
 
 find .: This starts the search in the current directory (.) and its subdirectories.
